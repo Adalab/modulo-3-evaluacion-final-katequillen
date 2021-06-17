@@ -33,15 +33,6 @@ const App = () => {
     if (foundCharacter !== undefined) {
       return <CharacterInfo character={foundCharacter} />;
     }
-    // else {
-    //   return <>
-    //   <h2>Oh no!</h2>
-    //   <h3>
-    //     Unable to find a character with that
-    //     name. Please try again.
-    //   </h3>;
-    //   </>
-    // }
   };
 
   return (
