@@ -37,15 +37,15 @@ const CharacterInfo = (props) => {
               title={`${props.character.name}`}
             />
           </div>
-          <div className="detail_container">
-            <ul className="detail_list">
-              <li className="detail_info"> {props.character.name}</li>
-              <li className="detail_info">Status: {getStatus()}</li>
-              <li className="detail_info">Species: {getSpecies()}</li>
-              <li className="detail_info">
+          <div className="big_card">
+            <ul className="big_card_list">
+              <li className="big_card_name"> {props.character.name}</li>
+              <li className="big_card_info">Status: {getStatus()}</li>
+              <li className="big_card_info">Species: {getSpecies()}</li>
+              <li className="big_card_info">
                 Planet of origen: {props.character.origin}
               </li>
-              <li className="detail_info">
+              <li className="big_card_info">
                 Number of appearances: {props.character.episode}
               </li>
             </ul>
