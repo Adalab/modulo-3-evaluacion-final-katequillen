@@ -13,7 +13,8 @@ const ApiData = () => {
           episode: character.episode.length,
         };
       });
-
+      return characters;
+    });
 };
 
 export default ApiData;

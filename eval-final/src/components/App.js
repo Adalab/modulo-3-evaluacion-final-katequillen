@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <img src={logo} className="logo" />
+      <img src={logo} alt="logo" className="logo" />
       <main>
         <Switch>
           <Route exact path="/">

@@ -21,19 +21,16 @@
   margin-left: 50px;
   margin-bottom: 30px;
 }
-.card_section {
-  display: flex;
-  flex-direction: row;
-}
 
 .small_card {
   background-color: teal;
 }
 
 .card_list {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
   width: 300px;
 }
 
