@@ -28,7 +28,7 @@ const CharacterInfo = (props) => {
             Take me back!
           </button>
         </Link>
-        <div className="detail__data">
+        <div className="big_card">
           <div>
             <img
               className="card_image"
@@ -37,7 +37,7 @@ const CharacterInfo = (props) => {
               title={`${props.character.name}`}
             />
           </div>
-          <div className="big_card">
+          <div>
             <ul className="big_card_list">
               <li className="big_card_name"> {props.character.name}</li>
               <li className="big_card_info">Status: {getStatus()}</li>
