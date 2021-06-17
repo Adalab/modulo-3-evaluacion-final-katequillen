@@ -1,0 +1,31 @@
+.info {
+  align-items: center;
+}
+
+.big_card {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  background-color: teal;
+  border: rgb(78, 180, 180) solid 2px;
+  color: white;
+}
+
+.big_card_image {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.big_card_list {
+  list-style-type: none;
+}
+
+.big_card_name {
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+
+.button {
+  margin-bottom: 30px;
+}

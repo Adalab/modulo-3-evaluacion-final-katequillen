@@ -11,7 +11,6 @@ const Filters = (props) => {
         handleFilter={props.handleFilter}
         nameFilter={props.nameFilter}
       />
-      {/*//Filter by species //Filter by type //filter by planet of origin*/}
     </form>
   );
 };

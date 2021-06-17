@@ -1,28 +1,29 @@
 import React from "react";
+import "../stylesheets/bigCard.scss";
 import { Link } from "react-router-dom";
 
 const CharacterInfo = (props) => {
   const getStatus = () => {
     if (props.character.status === "Alive") {
-      return <div>Alive</div>;
+      return <span>Alive</span>;
     } else if (props.character.status === "Dead") {
-      return <div>Dead</div>;
+      return <span>Dead</span>;
     } else {
-      return <div>Unknown</div>;
+      return <span>Unknown</span>;
     }
   };
 
   const getSpecies = () => {
     return props.character.species === "Human" ? (
-      <div>Human</div>
+      <span>Human</span>
     ) : (
-      <div>Not Human</div>
+      <span>Not Human</span>
     );
   };
 
   return (
-    <div className="detail">
-      <div className="detail__card">
+    <div className="info">
+      <div className="info_card">
         <Link to="/">
           <button className="button" title="Go back">
             Take me back!
@@ -31,7 +32,7 @@ const CharacterInfo = (props) => {
         <div className="big_card">
           <div>
             <img
-              className="card_image"
+              className="big_card_image"
               src={props.character.image}
               alt={`${props.character.name}`}
               title={`${props.character.name}`}

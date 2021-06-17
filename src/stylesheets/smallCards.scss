@@ -1,0 +1,32 @@
+.small_card {
+  background-color: teal;
+  border: rgb(78, 180, 180) solid 2px;
+}
+
+.card_list {
+  display: grid;
+  grid-template-columns: 204px 204px 204px 204px;
+  grid-template-rows: 300px 300px 300px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  list-style-type: none;
+}
+
+.card_image {
+  height: 200px;
+  width: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.small_card_species {
+  font-size: smaller;
+  margin-left: 5px;
+}
+
+.small_card_name {
+  margin-left: 5px;
+}

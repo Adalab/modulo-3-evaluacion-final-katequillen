@@ -4,59 +4,30 @@
   align-items: center;
   background-color: black;
   color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 10000px;
+  width: 100%;
 }
 
 .logo {
   height: 150px;
   margin-left: auto;
   margin-right: auto;
-  width: 4 em;
   margin-bottom: 100px;
 }
 
+.form {
+  display: flex;
+  align-content: center;
+}
+
 .search_box {
-  border: teal solid 3px;
+  border: rgb(78, 180, 180) solid 3px;
   border-radius: 3px;
   width: 200px;
-  margin-left: 50px;
   margin-bottom: 30px;
-}
-
-.small_card {
-  background-color: teal;
-}
-
-.card_list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  list-style-type: none;
-  width: 300px;
 }
 
 .button {
   margin-bottom: 30px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-.small_card_species {
-  font-size: smaller;
-}
-
-.big_card {
-  background-color: teal;
-}
-
-.big_card_list {
-  list-style-type: none;
-}
-
-.big_card_name {
-  font-size: large;
 }
